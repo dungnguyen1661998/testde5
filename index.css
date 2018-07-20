@@ -1,7 +1,279 @@
 .container-fluid {
-  background: red;
   height: auto;
   padding: 0;
   margin: 0; }
 
-/*# sourceMappingURL=index.css.map */
+#box4 {
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #ddd; }
+
+#box4-1 {
+  width: auto;
+  height: auto; }
+  #box4-1 #box4-1-1, #box4-1 #box4-1-2 {
+    width: auto;
+    height: auto;
+    margin: 0 0 0 8%; }
+    #box4-1 #box4-1-1 #chu1, #box4-1 #box4-1-2 #chu1 {
+      display: block;
+      float: left;
+      width: 80%;
+      margin: 0;
+      padding: 0;
+      font-family: arial;
+      font-size: 18px;
+      margin: 5% 0 0 3%;
+      font-weight: bolder; }
+    #box4-1 #box4-1-1 #lui, #box4-1 #box4-1-2 #lui, #box4-1 #box4-1-1 #tien, #box4-1 #box4-1-2 #tien {
+      float: left;
+      width: 5%;
+      height: auto;
+      line-height: auto;
+      display: block;
+      background: #ddd;
+      text-align: center;
+      font-size: 20px;
+      color: grey;
+      margin: 4.5% 0 0 0;
+      padding: 0;
+      text-decoration: none; }
+    #box4-1 #box4-1-1 #tien, #box4-1 #box4-1-2 #tien {
+      margin-left: 1%; }
+    #box4-1 #box4-1-1 #ke1, #box4-1 #box4-1-2 #ke1 {
+      width: 91%;
+      height: 0.5%;
+      background: grey;
+      float: left;
+      margin: 1% 0 0 3%; }
+  #box4-1 #box4-1-2 {
+    margin: 0 0 0 3%; }
+
+#box4-1-3 {
+  float: left;
+  width: 96.5%;
+  margin: 2% 0 0 0.8%; }
+
+#box4-1-4 {
+  float: left;
+  height: auto; }
+
+#khoi1 {
+  float: left;
+  width: 100%;
+  position: relative;
+  z-index: 1; }
+
+#link1:hover #khoi1 {
+  opacity: 0.7; }
+
+#icon2, #icon3 {
+  z-index: 0;
+  float: left;
+  position: absolute;
+  background: black;
+  width: 14%;
+  height: 9%;
+  margin: 47% 0 0 30%; }
+
+#link1:hover #icon2, #link1:hover #icon3 {
+  display: block;
+    display-z-index: 1; }
+
+#icon3 {
+  margin: 47% 0 0 47%; }
+
+#link3 {
+  background: black;
+  width: 100%;
+  height: 100%; }
+  #link3:hover #icon2, #link3:hover #icon3 {
+    border: 1px solid yellow; }
+
+#icon2-1 {
+  width: 70%;
+  height: 70%;
+  margin: 15%; }
+
+#icon1 {
+  float: left;
+  position: absolute;
+  background: orange;
+  border-radius: 10%;
+  margin: 5% 0 0 5%;
+  border-right: 5px solid orange;
+  border-left: 5px solid orange;
+  z-index: 1; }
+  #icon1 #chu3 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bolder; }
+
+#link2 {
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: gray;
+  font-size: 100%;
+  font-family: arial;
+  font-weight: bolder;
+  margin: 3% 0 3% 0; }
+
+#sao1, #sao2 {
+  width: 6%;
+  height: 4%;
+  float: left;
+  margin: 0 0 4% 28%; }
+
+#sao2 {
+  margin: 0 0 4% 3%; }
+
+#chu2 {
+  display: block;
+  float: left;
+  width: 100%;
+  color: red;
+  font-family: arial;
+  font-size: 100%;
+  text-align: center;
+  margin: 0 0 4% 0;
+  padding: 0; }
+
+#ke2 {
+  width: 100%;
+  height: 2px;
+  background: gray;
+  float: left;
+  margin: 0 0 5% 0; }
+
+#box4-2, #box4-3, #box4-4 {
+  width: 19.5%;
+  height: auto;
+  float: left;
+  margin: 0 0 0 9.5%; }
+
+#box4-3 {
+  margin: 0 0 0 0; }
+
+#box4-4 {
+  margin: 0 0 0 6.5%; }
+
+#box4-2-1 {
+  width: 100%;
+  height: auto; }
+
+#link4, #link5 {
+  display: block;
+  float: left;
+  width: 55%;
+  font-size: 15px;
+  font-family: arial;
+  font-weight: bolder;
+  background: gray;
+  color: black;
+  border-radius: 10px;
+  padding: 0 0 0 5px;
+  text-decoration: none; }
+  #link4:hover, #link5:hover {
+    color: orange; }
+
+#link5 {
+  background: #fff;
+  width: 35%;
+  text-align: center;
+  float: left;
+  display: block;
+  color: gray;
+  margin: 0;
+  padding: 0; }
+
+#box4-5 {
+  float: left;
+  margin: 3% 0 0 8.5%; }
+
+#box4-5-1 {
+  float: left;
+  margin: 0;
+  height: 250px; }
+  #box4-5-1 #khoi4 {
+    float: left;
+    width: 100%;
+    margin: 10% 0 0 0; }
+
+#box4-5-2 {
+  float: left; }
+  #box4-5-2 #tron, #box4-5-2 #tron3 {
+    width: 20%;
+    height: auto;
+    float: left; }
+    #box4-5-2 #tron #tronme, #box4-5-2 #tron3 #tronme {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid orange; }
+      #box4-5-2 #tron #tronme #troncon, #box4-5-2 #tron3 #tronme #troncon {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: orange;
+        margin: 4px; }
+        #box4-5-2 #tron #tronme #troncon #chu6, #box4-5-2 #tron3 #tronme #troncon #chu6 {
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          line-height: 30px;
+          display: block;
+          font-family: arial;
+          font-weight: bolder;
+          color: white; }
+  #box4-5-2 #khoichu, #box4-5-2 #khoichu3 {
+    float: left;
+    width: 80%;
+    height: auto; }
+    #box4-5-2 #khoichu #chu4, #box4-5-2 #khoichu3 #chu4, #box4-5-2 #khoichu #chu5, #box4-5-2 #khoichu3 #chu5 {
+      width: 100%;
+      float: left;
+      margin: 0;
+      padding: 0;
+      font-family: arial;
+      font-size: 14px;
+      font-weight: bolder;
+      color: black; }
+    #box4-5-2 #khoichu #chu5, #box4-5-2 #khoichu3 #chu5 {
+      font-size: 13px;
+      color: gray;
+      margin: 0% 0 2% 0; }
+
+#box4-5-3 {
+  float: left;
+  width: 100%;
+  height: 250px; }
+  #box4-5-3 #khoi5 {
+    float: left;
+    width: 100%;
+    height: 49%; }
+  #box4-5-3 #khoi6, #box4-5-3 #khoi7 {
+    float: left;
+    width: 48%;
+    height: 49%;
+    margin: 2% 2% 0 0; }
+  #box4-5-3 #khoi7 {
+    margin: 2% 0 0 2%; }
+
+@media all and (max-width: 480px) {
+  #box4-2, #box4-3, #box4-4 {
+    display: none; }
+  #box4-5-2 {
+    margin: 15% 0 0 0; } }
+
+@media all and (max-width: 768px) {
+  #box4-5-2 #tron3 {
+    display: none; }
+  #box4-5-2 #khoichu3 {
+    display: none; } }
