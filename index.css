@@ -103,15 +103,18 @@
             height: 400px; } }
         @media all and (max-width: 480px) {
           .container-fluid #box3 .box32 .box32-2 {
-            height: 210px; } }
+            height: 170px; } }
         @media all and (max-width: 320px) {
           .container-fluid #box3 .box32 .box32-2 {
             height: 150px; } }
         .container-fluid #box3 .box32 .box32-2:hover img {
           opacity: 0.7; }
-        .container-fluid #box3 .box32 .box32-2:hover .hov, .container-fluid #box3 .box32 .box32-2:hover .hov2 {
-          display: block; }
-        .container-fluid #box3 .box32 .box32-2 .hov, .container-fluid #box3 .box32 .box32-2 .hov2 {
+        @media all and (min-width: 1025px) {
+          .container-fluid #box3 .box32 .box32-2:hover .hov {
+            display: block; }
+          .container-fluid #box3 .box32 .box32-2:hover .hov2 {
+            display: block; } }
+        .container-fluid #box3 .box32 .box32-2 .hov {
           float: left;
           height: 30px;
           width: 30px;
@@ -121,10 +124,15 @@
           z-index: 3;
           margin: 150px 0 0 100px;
           display: none; }
-          @media all and (max-width: 320px) {
-            .container-fluid #box3 .box32 .box32-2 .hov, .container-fluid #box3 .box32 .box32-2 .hov2 {
-              display: none; } }
         .container-fluid #box3 .box32 .box32-2 .hov2 {
+          float: left;
+          height: 30px;
+          width: 30px;
+          background: #ddd;
+          opacity: 0.8;
+          position: absolute;
+          z-index: 3;
+          display: none;
           margin: 150px 0 0 140px; }
         .container-fluid #box3 .box32 .box32-2 a {
           text-decoration: none; }
@@ -216,12 +224,6 @@
         width: 100%; }
 
 @media all and (max-width: 768px) {
-  .box32 .box32-2 {
-    height: 210px; }
-    .box32 .box32-2:hover .hov, .container-fluid #box3 .box32 .box32-2:hover .hov2 {
-      display: none; }
-  .box32 .sao2 {
-    margin-left: 20%; }
   .box31 h1 {
     display: none; }
   .box31 .box31-5 h1 {
